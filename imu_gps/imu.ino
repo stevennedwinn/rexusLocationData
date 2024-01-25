@@ -3,6 +3,11 @@
 #include <ros.h>
 #include <sensor_msgs/Imu.h> // Using IMU message instead of NavSatFix
 
+// VCC to 3.3V
+// GND to GND
+// SDA to analog4
+// SCL to analog5
+
 BNO080 myIMU;
 ros::NodeHandle nh;
 
